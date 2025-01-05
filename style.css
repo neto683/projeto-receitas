@@ -14,7 +14,7 @@ div#container{
   width: 800px;
   padding: 24px;
   border-radius: 24px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
   box-sizing: border-box;
 }
 main{
@@ -56,4 +56,9 @@ section + section{
 }
 ul{
   padding-left: 30px;
+}
+footer{
+  color: #291B1A;
+  text-align: center;
+  padding-bottom: 48px;
 }
