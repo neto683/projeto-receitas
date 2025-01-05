@@ -1,5 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 :root{
-  line-height: 150%;
   color: #573A37;
 }
 body{
@@ -16,19 +19,20 @@ div#container{
 }
 main{
 
-  
+  padding: 24px;
 }
+
 p{
-  111
   font-size: 16px;
   font-family: "Alice", serif;
+  
 }
 img{
  
-  
   border-radius: 16px;
 }
-#about{
+#about p + p{
+  margin-top: 12px;
   
 }
 h1{
@@ -37,9 +41,19 @@ h1{
   font-size: 40px;
   line-height: 140%;
   color: #573A37;
+  margin-bottom: 4px;
+  line-height: 150%;
 }
 h2{
   font-size: 24px;
   font-family: "Alice", serif;
   color: #573A37;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+section + section{
+  margin-top: 24px;
+}
+ul{
+  padding-left: 30px;
 }
